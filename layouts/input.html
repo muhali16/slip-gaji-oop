@@ -1,0 +1,52 @@
+<main>
+    <form action="" method="post">
+        <h2>Masukan Data Karyawan</h2>
+        <table>
+            <tr>
+                <td class="label"><label for="nip">
+                    NIP
+                </label></td>
+                <td><input type="text" name="nip" id="nip"></td>
+            </tr>
+            <tr>
+                <td class="label"><label for="nama">
+                    Nama
+                </label></td>
+                <td><input type="text" name="nama" id="nama"></td>
+            </tr>
+            <tr>
+                <td class="label"><label for="tahunMasuk">
+                    Tahun Masuk
+                </label></td>
+                <td><input type="number" min="2014" max="2023" name="tahunMasuk" id="tahunMasuk"></td>
+            </tr>
+            <tr>
+                <td class="label"><label for="gajiPokok">
+                    Gaji Pokok (Rp)
+                </label></td>
+                <td><input type="number" name="gajiPokok" id="gajiPokok"></td>
+            </tr>
+            <tr>
+                <td class="label"><label for="jabatan">
+                    Jabatan
+                </label></td>
+                <td>
+                    <select width="100%" id="jabatan" name="jabatan">
+                        <option selected>Pilih</option>
+                        <option value="Satpam">Satpam</option>
+                        <option value="Manajer">Manajer</option>
+                        <option value="Sales">Sales</option>
+                        <option value="Administrasi">Administrasi</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="label"><label for="indikator">
+                    Indikator
+                </label></td>
+                <td><input type="number" name="indikator" id="indikator"></td>
+            </tr>
+        </table>
+        <button id="submit" type="submit" name="submit">Submit</button>
+    </form>
+</main>

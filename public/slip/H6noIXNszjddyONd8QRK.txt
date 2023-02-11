@@ -1,0 +1,16 @@
+
+        SLIP GAJI KARYAWAN
+        PT Agro Industri
+        ------------------------------------------
+        Nama         : Muhammad Ali Mustaqim
+        NIP          : 1897
+        Jabatan      : Manajer
+        Lama Kerja   : 12
+        Bonus        : 1200000
+        Gaji Pokok   : 12000000
+        Gaji Akhir   : 13200000
+       
+        TTD
+        Manajemen
+        PT Agro Industri
+        
